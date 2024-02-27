@@ -1,0 +1,88 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	/* justify-content: space-around; */
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 28px;
+	margin-left: 30px;
+}
+
+/* styles.module.css */
+
+.backgroundImage {
+    background-image: url('./home1.jpg');
+    background-size: contain; /* or 'contain', depending on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0; /* Reset default margin to ensure the background covers the entire viewport */
+    height: 100vh; /* Set the height to cover the entire viewport */
+}
+
+
+/* Style for white buttons */
+.white_btn, .navbar a {
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    color: #3bb19b;
+
+}
+
+.white_btn:last-child, .navbar a:last-child {
+    margin-right: 0; /* Remove right margin for the last button/link */
+}
+/* Style for white buttons on hover */
+.white_btn:hover, .navbar a:hover {
+    background-color: #85c5ec; /* Change background color on hover */
+    color: #300fec;
+	 /* Change text color on hover */
+}
+
+.hom{
+	margin-left: 700px;
+	margin-right: 12px;
+}
+.star{
+	margin-right: 12px;
+}
+.supp{
+	margin-right: 12px;
+}
+
+/* styles.module.css */
+.footer {
+	background-color: #9bc9f5;
+	padding: 10px;
+	height: 30px;
+	text-align: center;
+	font-size: 18px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  .footer span {
+	margin: 0 20px;
+	text-decoration: none;
+	color: inherit;
+  }
+  
+  .footer span:last-child {
+	margin-right: 0;
+	white-space: nowrap; /* Prevent line breaks for the copyright notice */
+  }
+  
+  
+

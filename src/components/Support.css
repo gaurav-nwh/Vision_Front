@@ -1,0 +1,99 @@
+/* Support.css */
+.buttonContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #3bb19b;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2e856e;
+}
+
+.formContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer label,
+.formContainer textarea,
+.formContainer input[type="text"],
+.formContainer input[type="email"],
+.formContainer input[type="tel"] {
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formContainer textarea {
+    height: 50px;
+}
+
+.formContainer button[type="submit"] {
+    background-color: #3bb19b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formContainer button[type="submit"]:hover {
+    background-color: #2e856e;
+}
+
+.tableContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Add additional styles for your table as needed */
+/* Support.css */
+/* ... (previous styles) */
+
+.formTableContainer {
+    position: relative;
+}
+
+.formContainer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px; /* Adjust the margin-bottom as needed */
+}
+
+.tableContainer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px; /* Adjust the margin-bottom as needed */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #3bb19b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ... (rest of your styles) */
